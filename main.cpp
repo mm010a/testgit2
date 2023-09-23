@@ -31,7 +31,7 @@ int main()
 		u = vec[1]->get_u();
 		
 		// output the results
-		std::cout << "Solution to u’ = u, " << 0 << " <= t <= " << T << ", step size " <<
+		std::cout << "Solution to uâ€™ = u, " << 0 << " <= t <= " << T << ", step size " <<
 			T / n << "\n";
 		std::cout << "*********************************************************\n";
 		std::cout << "t " << std::setw(30) << "u(t)" << std::setw(20) << "exact_soln" <<
@@ -56,5 +56,5 @@ int main()
 
 double f(double u, double t) // function f that is the right hand side of the ODE
 {
-	return u;
+	return u; //
 }
