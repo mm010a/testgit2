@@ -56,5 +56,5 @@ int main()
 
 double f(double u, double t) // function f that is the right hand side of the ODE
 {
-	return u; //
+	return u; // //
 }
